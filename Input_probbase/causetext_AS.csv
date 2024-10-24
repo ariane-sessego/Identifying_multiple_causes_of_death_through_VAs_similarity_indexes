@@ -1,0 +1,65 @@
+numero_cause,CAUSE.C.,CAUSETXT.C.40,V3,Code_proba,ICD_equivalent_code,ICD10_Category,Cat,Group
+,A_NRP,Not pregnant or recently delivered,Not pregnant or recently delivered,,,,,
+,A_PEND_6W,Pregnancy ended within 6 weeks of death,Pregnancy ended within 6 weeks of death,,,,,
+,A_PREG,Pregnant at death,Pregnant at death,,,,,
+1,B_SEPSIS,Sepsis (non-obstetric),01.01 Sepsis (non-obstetric),ob_sepsis,A40-A41,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+2,B_PNEUM,Acute resp infect incl pneumonia,01.02 Acute resp infect incl pneumonia,ob_pneum,J00-J22,X. Diseases of the respiratory system,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+3,B_HIVAIDS,HIV/AIDS related death,01.03 HIV/AIDS related death,ob_hivaids,B20-B24,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+4,B_DIARR,Diarrhoeal diseases,01.04 Diarrhoeal diseases,ob_diarr,A00-A09,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+5,B_MALAR,Malaria,01.05 Malaria,ob_malar,B50-54,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+6,B_MEAS,Measles,01.06 Measles,ob_meas,B05,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+7,B_MENING,Meningitis and encephalitis,01.07 Meningitis and encephalitis,ob_mening,A39; G00-G05,I. Certain infectious and parasitic diseases & VI. Diseases of the nervous system,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+8,B_TETAN,Tetanus,01.08 & 10.05 Tetanus,ob_tetan,A33-A35,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+9,B_TB_PUL,Pulmonary tuberculosis,01.09 Pulmonary tuberculosis,ob_tb_pul,A15-A16,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+10,B_PERTUS,Pertussis,01.10 Pertussis,ob_pertus,A37,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+11,B_HEMFEV,Haemorrhagic fever,01.11 Haemorrhagic fever,ob_hemfev,A90-A99,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+12,B_INF_OU,Other and unspecified infect dis,01.99 Other and unspecified infect dis,ob_inf_ou,A17-A19; A20-A38; A42-A89; B00-B19; B25-49; B55-B99,I. Certain infectious and parasitic diseases,Infectious and parasitic diseases,"Infectious, parastitic, neonatal and maternal causes"
+13,B_ORAL_M,Oral neoplasms,02.01 Oral neoplasms,ob_oral_m,C00-C06,II. Neoplasms,Cancers,Non-communicable diseases
+14,B_DIG_M,Digestive neoplasms,02.02 Digestive neoplasms,ob_dig_m,C15-C26,II. Neoplasms,Cancers,Non-communicable diseases
+15,B_RESP_M,Respiratory neoplasms,02.03 Respiratory neoplasms,ob_resp_m,C30-C39,II. Neoplasms,Cancers,Non-communicable diseases
+16,B_BREA_M,Breast neoplasms,02.04 Breast neoplasms,ob_brea_m,C50,II. Neoplasms,Cancers,Non-communicable diseases
+17,B_REPR_M,Reproductive neoplasms MF,02.05 & 02.06 Reproductive neoplasms MF,ob_repr_m,C51-C58; C60-C63,II. Neoplasms,Cancers,Non-communicable diseases
+18,B_OU_M,Other and unspecified neoplasms,02.99 Other and unspecified neoplasms,ob_ou_m,C07-C14; C40-C49; C60-D48,II. Neoplasms,Cancers,Non-communicable diseases
+19,B_ANAEM,Severe anaemia,03.01 Severe anaemia,ob_anaem,D50-D64,III. Diseases of the blood and blood-forming organs and certain disorders involving immune mechanisme,Anemia and malnutrition,"Infectious, parastitic, neonatal and maternal causes"
+20,B_MALNUT,Severe malnutrition,03.02 Severe malnutrition,ob_malnut,E40-E46,IV. Endocrine and nutritional metabolic diseases,Anemia and malnutrition,"Infectious, parastitic, neonatal and maternal causes"
+21,B_DIABET,Diabetes mellitus,03.03 Diabetes mellitus,ob_diabet,E10-E14,IV. Endocrine and nutritional metabolic diseases,Diabetes and cardiovascular diseases,Non-communicable diseases
+22,B_CARD_AC,Acute cardiac disease,04.01 Acute cardiac disease,ob_card_ac,I20-I25,IX. Diseases of the circulatory system,Diabetes and cardiovascular diseases,Non-communicable diseases
+23,B_SICKLE,Sickle cell with crisis,04.03 Sickle cell with crisis,ob_sickle,D57,III. Diseases of the blood and blood-forming organs and certain disorders involving immune mechanisme,Diabetes and cardiovascular diseases,Non-communicable diseases
+24,B_STROKE,Stroke,04.02 Stroke,ob_stroke,I60-I69,IX. Diseases of the circulatory system,Diabetes and cardiovascular diseases,Non-communicable diseases
+25,B_CARD_OU,Other and unspecified cardiac dis,04.99 Other and unspecified cardiac dis,ob_card_ou,I00-I09; I10-I15; I26-I52; I70-I99,IX. Diseases of the circulatory system,Diabetes and cardiovascular diseases,Non-communicable diseases
+26,B_COPD,Chronic obstructive pulmonary dis,05.01 Chronic obstructive pulmonary dis,ob_copd,J40-J44,X. Diseases of the respiratory system,Chronic respiratory diseases,Non-communicable diseases
+27,B_ASTHM,Asthma,05.02 Asthma,ob_asthm,J45-J46,X. Diseases of the respiratory system,Chronic respiratory diseases,Non-communicable diseases
+28,B_AC_ABD,Acute abdomen,06.01 Acute abdomen,ob_ac_abd,R10,"XVIII. Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Other non-communicable diseases,Non-communicable diseases
+29,B_LIVER,Liver cirrhosis,06.02 Liver cirrhosis,ob_liver,K70-K76,XI. Diseases of the digestive system,Other non-communicable diseases,Non-communicable diseases
+30,B_KIDNEY,Renal failure,07.01 Renal failure,ob_kidney,N17-N19,XIV. Diseases of the genitourinary system,Other non-communicable diseases,Non-communicable diseases
+31,B_EPILEP,Epilepsy,08.01 Epilepsy,ob_epilep,G40-G41,VI. Diseases of the nervous system,Other non-communicable diseases,Non-communicable diseases
+32,B_NCD_OU,Other and unspecified NCD,98 Other and unspecified NCD,ob_ncd_ou,D55-D89; E00-E07; E15-E35; E50-E90; F00-F99; G06G09; GG10-G37; G50-G99; H00-H95; J30-J39; J47-J99; K00-K31; K35-K38; K40-K93; L00-L99; M00-M99; N00N16; N20-N99; R00-R09; R11-R94,,Other non-communicable diseases,Non-communicable diseases
+33,B_CONGEN,Congenital malformation,10.06 Congenital malformation,ob_congen,Q00-Q99,"XVII. Congenital malformations, deformations and chromosomal abnormalities",Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+34,B_P_SML,Prematurity,10.01 Prematurity,ob_p_sml,P05-P07,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+35,B_P_ASPH,Birth asphyxia,10.02 Birth asphyxia,ob_p_asph,P20-P22,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+36,B_P_PNEU,Neonatal pneumonia,10.03 Neonatal pneumonia,ob_p_pneu,P23-P25,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+37,B_P_SEPS,Neonatal sepsis,10.04 Neonatal sepsis,ob_p_seps,P36,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+38,B_P_OU,Other and unspecified neonatal CoD,10.99 Other and unspecified neonatal CoD,ob_p_ou,P00-P04; P08-P15; P26-P35; P37-P94; P96,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+39,B_STB_F,Fresh stillbirth,11.01 Fresh stillbirth,ob_stb_f,P95,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+40,B_STB_M,Macerated stillbirth,11.02 Macerated stillbirth,ob_stb_m,P95,XVI. Certain conditions originating in the perintal period,Neonatal CoD,"Infectious, parastitic, neonatal and maternal causes"
+41,B_ACC_TRF,Road traffic accident,12.01 Road traffic accident,ob_acc_trf,V01-V89,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+42,B_ACC_TRO,Other transport accident,12.02 Other transport accident,ob_acc_tro,V90-V99,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+43,B_FALL,Accid fall,12.03 Accid fall,ob_fall,W00-W19,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+44,B_DROWN,Accid drowning and submersion,12.04 Accid drowning and submersion,ob_drown,W65-W74,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+45,B_FIRE,Accid expos to smoke fire & flame,12.05 Accid expos to smoke fire & flame,ob_fire,X00-X19,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+46,B_VENOM,Contact with venomous plant/animal,12.06 Contact with venomous plant/animal,ob_venom,X20-X29,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+47,B_FORCE,Exposure to force of nature,12.10 Exposure to force of nature,ob_force,X30-X39,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+48,B_POIS,Accid poisoning & noxious subs,12.07 Accid poisoning & noxious subs,ob_pois,X40-X49,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+49,B_SUIC,Intentional self-harm,12.08 Intentional self-harm,ob_suic,X60-X84,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+50,B_ASSAULT,Assault,12.09 Assault,ob_assault,X85-Y09,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+51,B_EXT_OU,Other and unspecified external CoD,12.99 Other and unspecified external CoD,ob_ext_ou,S00-T99; W20-W64; W75-W99; X50-X59; Y10-Y98,XX. External causes of morbidity and mortality,External CoD,Injuries and violent deaths
+52,B_ECTOP,Ectopic pregnancy,09.01 Ectopic pregnancy,ob_ectop,O00,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+53,B_ABORT,Abortion-related death,09.02 Abortion-related death,ob_abort,O03-O08,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+54,B_PIH,Pregnancy-induced hypertension,09.03 Pregnancy-induced hypertension,ob_pih,O10-O16,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+55,B_HAEM,Obstetric haemorrhage,09.04 Obstetric haemorrhage,ob_haem,O46;O67;O72,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+56,B_OBS_LB,Obstructed labour,09.05 Obstructed labour,ob_obs_lb,O63-O66,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+57,B_O_SEPS,Pregnancy-related sepsis,09.06 Pregnancy-related sepsis,ob_o_seps,"O85; O75,3","XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+58,B_PANAEM,Anaemia of pregnancy,09.07 Anaemia of pregnancy,ob_panaem,O99.0,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+59,B_UT_RUP,Ruptured uterus,09.08 Ruptured uterus,ob_ut_rup,O71,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+60,B_MAT_OU,Other and unspecified maternal CoD,09.99 Other and unspecified maternal CoD,ob_mat_ou,O01-O02; O20-O45; O47-O62; O68-O70; O73-O84; O86-O99,"XV. Pregnancy, childbirth and the puerperium",Maternal CoD,"Infectious, parastitic, neonatal and maternal causes"
+,,Indeterminate,99 Indeterminate,61,R95-R99,,Indeterminate,Indeterminate

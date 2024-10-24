@@ -1,0 +1,15 @@
+"","sex","age_grp","nb_indic","cor"
+"1","female","elder",141,0.947
+"2","female","midage",142,0.964
+"3","female","adult",181,0.946
+"4","female","child",174,0.965
+"5","female","under5",134,0.92
+"6","female","infant",128,0.899
+"7","female","neonate",123,0.707
+"8","male","elder",138,0.959
+"9","male","midage",137,0.952
+"10","male","adult",138,0.936
+"11","male","child",134,0.927
+"12","male","under5",134,0.924
+"13","male","infant",128,0.902
+"14","male","neonate",123,0.741
