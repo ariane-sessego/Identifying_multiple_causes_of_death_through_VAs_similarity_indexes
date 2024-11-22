@@ -1,4 +1,4 @@
-This contains the script to compute the similarity indexes replicate the the results presented in  "Studying multiple causes of death in the absence of death certificates: contribution of an index of similarity"
+This contains the script to compute the similarity indexes replicate the the results presented in  "Studying multiple causes of death through verbal autopsies: The contribution of a similarity index"
 
 #### The scripts are in R version : 2024.04.04
 
